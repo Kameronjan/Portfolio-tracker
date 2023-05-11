@@ -12,9 +12,8 @@
 }
 
 .banner {
-  height: 500px;
+  height: 400px;
   color: white;
-  margin-top: 30px;
 }
 
 .cards {
@@ -25,12 +24,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
   color: white;
 }
 
 .page {
-  background-color: black;
+  background-color: beige;
+}
+.cards:hover {
+  color: yellow;
+  transition: 0.5s;
 }
