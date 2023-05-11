@@ -3,13 +3,14 @@
   border: 1px solid black;
   width: 100%;
   background-color: rgba(27, 200, 108, 0.869);
-  padding: 10px;
+  padding: 5px;
 }
 
-h3 {
-  display: flex;
-  justify-content: flex-end;
+.home-page-actions {
+  width: auto;
+  flex: 0 0 auto;
 }
+
 .banner {
   height: 500px;
   color: white;
