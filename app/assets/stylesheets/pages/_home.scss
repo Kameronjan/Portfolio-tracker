@@ -1,5 +1,5 @@
 // Specific CSS for your home-page
-.container {
+.nav {
   border: 1px solid black;
   width: 100%;
   background-color: rgba(27, 200, 108, 0.869);
@@ -9,6 +9,7 @@
 .banner {
   height: 500px;
   color: white;
+  margin-top: 10px;
 }
 
 .cards {
@@ -23,4 +24,8 @@
 
 h1 {
   color: white;
+}
+
+.page {
+  background-color: black;
 }
