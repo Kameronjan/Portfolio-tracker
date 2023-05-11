@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
   def stocks
   end
+
+  def forex
+  end
+
+  def crypto
+  end
 end
