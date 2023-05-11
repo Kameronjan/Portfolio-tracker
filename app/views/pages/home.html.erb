@@ -3,16 +3,17 @@
     <div class="col">
       <h4> 📊 <strong>Portfolio Tracker</strong></h4>
     </div>
+
     <div class="col home-page-actions">
-      <h5><strong>Home</strong></h5>
+      <%= link_to portfolio_path do %>
+        <strong>Portfolio</strong>
+      <% end %>
     </div>
 
     <div class="col home-page-actions">
-      <h5><strong>Portfolio</strong></h5>
-    </div>
-
-    <div class="col home-page-actions">
-      <h5><strong>login</strong></h5>
+      <%= link_to login_path do %>
+        <strong>Login</strong>
+      <% end %>
     </div>
   </div>
 
