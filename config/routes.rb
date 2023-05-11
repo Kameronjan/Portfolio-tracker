@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   get "/stocks", to: "pages#stocks"
   get "/forex", to: "pages#forex"
   get "crypto", to: "pages#crypto"
+  get "portfolio", to: "pages#portfolio"
+  get "login", to: "pages#login"
+  get "home", to: "pages#home"
 end

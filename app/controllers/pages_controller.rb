@@ -10,4 +10,10 @@ class PagesController < ApplicationController
 
   def crypto
   end
+
+  def portfolio
+  end
+
+  def login
+  end
 end
