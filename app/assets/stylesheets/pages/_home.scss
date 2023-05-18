@@ -16,7 +16,8 @@
   height: 400px;
   width: 100%;
   color: white;
-  border: 1px solid black;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .cards {
@@ -25,7 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 
 a {
