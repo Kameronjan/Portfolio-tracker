@@ -26,20 +26,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 800px;
-  padding-top: 60px;
+  padding-top: 500px;
 }
 .cards {
-  height: 150px;
+  height: 100px;
   margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .page {
@@ -47,6 +49,6 @@ a {
   height: 1000px;
 }
 a:hover {
-  color: black;
+  color: 00A2FF;
   transition: 0.5s;
 }
