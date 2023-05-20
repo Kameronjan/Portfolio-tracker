@@ -25,6 +25,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 800px;
+  padding-top: 60px;
 }
 .cards {
   height: 150px;
@@ -42,6 +44,7 @@ a {
 
 .page {
   background-color: #00A2FF;
+  height: 1000px;
 }
 a:hover {
   color: black;
