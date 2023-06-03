@@ -39,17 +39,21 @@
   height: 50px;
   width: 550px;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 10px;
   margin-top: 20px;
 }
 
-
+.btn-primary {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
 .centered-div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 600px;
+  width: 550px;
   padding-top: 500px;
 }
 .cards {
