@@ -6,7 +6,6 @@ let speed = 40;
 export default class extends Controller {
   static targets = ["text"]
   connect() {
-    console.log("test")
     typeWriter()
   }
 }
